@@ -1,0 +1,307 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Materna Website</title>
+</head>
+<body>
+<!-- Header -->
+<div class="lg:flex justify-end gap-12 px-10 bg-white mt-5 pb-4 relative hidden">
+    <h4 class="text-gray-600  border-r-2 border-gray-300 pr-8">News</h4>
+    <h4 class="text-gray-600  border-r-2 border-gray-300 pr-8">Contact</h4>
+<div class="flex gap-4">
+    <h4>English</h4>
+    <svg class="text-red-700 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>   
+</div>   
+</div>
+<!-- nav mobile -->
+<div class="bg-red-700 h-16 flex gap-8 pt-2 pl-2 lg:hidden">
+    <div class="flex gap-4">
+        <svg class="text-white w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        <h3 class="text-white mt-4">Menu</h3>          
+    </div>
+    <div class="flex gap-4">
+        <svg class="text-white w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+        <h3 class="text-white mt-4">Search</h3>          
+    </div>
+</div>
+<!-- background -->
+<div class="lg:relative bg-cover bg-center bg-no-repeat h-screen" style="background-image: url('./images/buehne_startseite.svg')">
+    <!-- Your content goes here -->
+    <div class="flex gap-10">
+    <img class="lg:hidden block w-36 h-36 pt-4 pl-4" src="./images/logo-small.svg" alt="">
+    <div class="justify-around gap-10 lg:block hidden" >
+        <div class="absolute top-[-60] left-[-10] ml-40"> <img class="w-52" src="./images/logo-small.svg" alt="Materna"></div>
+        <div class="flex justify-end ml-96">
+            <div class="text-white">
+                <ul class="flex gap-12 mt-4 bg-[rgb(195,11,23)] p-3 pr-80 text-lg">
+                    <li>Portfolio</li>
+                    <li>Industries</li>
+                    <li>Customers</li>
+                    <li>About us</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="bg-[rgb(142,29,43)] pr-4 pl-4 mt-4 flex justify-start">
+                <svg class="w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                  
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Text amd Images -->
+
+    <div class="flex md:justify-around md:flex-row flex-col items-center px-10">
+        <!-- text -->
+        <div class="border-8 lg:py-12 px-4 border-[rgb(195,11,23)] text-white h-auto md:w-1/2 lg:w-2/6 md:text-2xl md:mt-32 mt-4">
+            <h1 class="uppercase lg:text-5xl text-3xl inline-block whitespace-normal">we are </br> digiterising your </br> world.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Illo incidunt, debitis provident adipisci, autem quidem 
+                corporis consequatur, doloribus temporibus aspernatur 
+                repellendus eius necessitatibus. </p>
+        </div>
+        <!-- Images -->
+        <div class="lg:flex lg:gap-12">
+            <div class="mt-5 lg:border-8 lg:border-white">
+            <img class="hidden lg:block w-56 h-56 " src="./images/M-Startseite-Quadrat-Portfolio.jpeg" alt="1">
+            <h4 class="text-center text-white bg-[rgb(195,11,23)] py-3 lg:px-2 px-32">Portfolio</h4>
+            </div>
+            <div class="mt-5 lg:border-8 lg:border-white">
+            <img class="hidden lg:block w-56 h-56 " src="./images/M-Startseite-Quadrat-Unternehmen.jpeg" alt="2">
+            <h4 class="text-center text-white bg-[rgb(195,11,23)] py-3 lg:px-2 px-32">Aboutus</h4>
+            </div>
+            <div class="mt-5 lg:border-8 lg:border-white">
+            <img class="hidden lg:block w-56 h-56 " src="./images/M-Startseite-Quadrat-Portfolio.jpeg" alt="3">
+            <h4 class="text-center text-white bg-[rgb(195,11,23)] py-3 lg:px-2 px-32">Careers</h4>
+            </div>
+        </div>
+    </div>
+    
+
+  </div>
+<!-- card part -->
+<h1 class="text-center text-4xl mb-8 mt-10">Learn more about our portfolio</h1>
+<div class="pb-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 lg:ml-12 lg:mr-12 mx-2">
+    <div class="mt-8 relative bg-[rgb(233,238,241)]">
+        <img src="./images/AS-162962912-Cyber-Security.png" alt="" class="w-full h-32 sm:h-48 object-cover">
+        <h2 class="text-red-600 text-lg py-4 pl-4">We accompany your journey2Cloud</h2>
+        <p class="pl-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta molestias doloremque ipsa, harum non at reiciendis </p>
+        <p class="bg-[rgb(233,238,241)] py-2 px-4 absolute top-0 ml-2 mt-2 flex justify-end">Cloud</p>
+        <div class="bg-[rgb(195,11,23)] p-2 w-20 flex ml-56 m-4">
+            <h4 class="text-white">More</h4>
+            <svg class="text-white w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>         
+        </div>
+    </div>
+    <div class="mt-8 relative bg-[rgb(233,238,241)]">
+        <img src="./images/AS-279424236-Home-Portfolio-ESM.png" alt="" class="w-full h-32 sm:h-48 object-cover">
+        <h2 class="text-red-600 text-lg py-4 pl-4">We accompany your journey2Cloud</h2>
+        <p class="pl-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta molestias doloremque ipsa, harum non at reiciendis </p>
+        <p class="bg-[rgb(233,238,241)] py-2 px-4 absolute top-0 ml-2 mt-2 flex justify-end">Cloud</p>
+        <div class="bg-[rgb(195,11,23)] p-2 w-20 flex ml-56 m-4">
+            <h4 class="text-white">More</h4>
+            <svg class="text-white w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>         
+        </div>
+    </div>
+    <div class="mt-8 relative bg-[rgb(233,238,241)]">
+        <img src="./images/AS-404775145-Home-Portfolio-Manufacturing.png" alt="" class="w-full h-32 sm:h-48 object-cover">
+        <h2 class="text-red-600 text-lg py-4 pl-4">We accompany your journey2Cloud</h2>
+        <p class="pl-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta molestias doloremque ipsa, harum non at reiciendis </p>
+        <p class="bg-[rgb(233,238,241)] py-2 px-4 absolute top-0 ml-2 mt-2 flex justify-end">Cloud</p>
+        <div class="bg-[rgb(195,11,23)] p-2 w-20 flex ml-56 m-4">
+            <h4 class="text-white">More</h4>
+            <svg class="text-white w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>         
+        </div>
+    </div>
+    <div class="mt-8 relative bg-[rgb(233,238,241)]">
+        <img src="./images/M-Startseite-Quadrat-Karriere.jpeg" alt="" class="w-full h-32 sm:h-48 object-cover">
+        <h2 class="text-red-600 text-lg py-4 pl-4">We accompany your journey2Cloud</h2>
+        <p class="pl-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta molestias doloremque ipsa, harum non at reiciendis </p>
+        <p class="bg-[rgb(233,238,241)] py-2 px-4 absolute top-0 ml-2 mt-2 flex justify-end">Cloud</p>
+        <div class="bg-[rgb(195,11,23)] p-2 w-20 flex ml-56 m-4">
+            <h4 class="text-white">More</h4>
+            <svg class="text-white w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>         
+        </div>
+    </div>
+</div>
+<div class="bg-[rgb(233,238,241)]">
+    <h1 class="text-[rgb(233,238,241)]">@</h1>
+    <div class="lg:flex m-12 lg:h-72 h-fit justify-around">
+        <div class="border-2 border-red-700 lg:w-1/2">
+            <!-- inside the border -->
+            <img class="h-full w-full" src="./images/E-Portfolio-Lsg-ESM-ISG-Cover.png" alt="">
+        </div>
+        <div class="bg-white">
+            <h1 class="text-red-600 my-6 text-2xl pl-4">Lorem ipsum dolor sit, amet consectetur adipisicing </h1>
+            <p class="text-lg pl-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Repellendus molestiae maiores neque. Eos dolor 
+                dolores doloremque maxime perspiciatis </p>
+                <div class="p-2 w-32 flex lg:ml-96 mt-12 m-4 border-2 border-red-700">
+                    <h4 class="text-red-600">Read More</h4>
+                    <svg class="text-red-700 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                      </svg>         
+                </div>       
+
+        </div>
+
+    </div>
+    <div>
+        <h1 class="text-lg text-center lg:mt-24 lg:mb-12 mt-4">Materna is behind it</h1>
+    </div>
+    <div class="flex lg:m-10 mx-2">
+    <div class="lg:flex items-center hidden"><svg data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="30" height="43"><path fill="#3b3c41" d="M30 43H0V0h30z"/><path fill="#fff" d="M20.53 33.061L9 21.53 20.53 10l1.061 1.061-10.47 10.469L21.591 32l-1.061 1.061z"/></svg></div>
+    <div class="lg:flex lg:h-1/2 h-fit">
+     
+        <div class="lg:w-1/2">
+            <img class="h-full" src="./images/M-Flughafen-Denver-SBD.png" alt="">
+        </div>
+        <div class="lg:w-1/2 bg-white">
+            <h1 class="text-red-600 lg:my-6 md:text-2xl text-lg md:text-center pl-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam modi</h1>
+            <p class="md:text-lg text-sm md:text-center pl-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quam ullam fugit saepe id vero labore officiis, error, 
+                non optio sed iste tenetur quae odio ex amet, quia explicabo ut dicta?
+            </p>
+            <div class="p-2 w-80 flex lg:ml-80 mt-24 m-4 border-2 border-red-700">
+                <h4 class="text-red-600">More about theSelf Bag Drop Project</h4>
+                <svg class="text-red-700 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>         
+            </div> 
+        </div>    
+    </div>
+    <div class="lg:flex items-center hidden"><svg data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="30" height="43"><path fill="#c41017" d="M30 43H0V0h30z"/><path fill="#fff" d="M10.061 33.061l11.53-11.531L10.061 10 9 11.061 19.47 21.53 9 32l1.061 1.061z"/></svg></div>
+    </div>
+
+    <!-- four photos -->
+    <div class="lg:grid grid-cols-4 hidden gap-8 m-12">
+        <div class="relative">
+            <img src="./images/AS-130417189_206837819.jpeg" alt="">
+            <svg class="w-10 bg-gray-800 absolute top-0 ml-2 mt-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+        </div>
+        <div class="relative">
+            <img src="./images/AS-225919671.jpeg" alt="">
+            <svg class="w-10 absolute top-0 ml-2 mt-2 text-white bg-[rgb(195,11,23)]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+        </div>
+        <div class="relative">
+            <img src="./images/vw-financial-service.jpeg" alt="">
+            <svg class="w-10 absolute top-0 ml-2 mt-2 text-white bg-[rgb(195,11,23)]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+        </div>
+        <div class="relative">
+            <img src="./images/M-Flughafen-Denver-SBD.png" alt="">
+            <svg class="w-10 absolute top-0 ml-2 mt-2 text-white bg-[rgb(195,11,23)]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+        </div>
+    </div>
+    <div class="flex gap-10 ml-24 mt-28 pb-10">
+        <div class="lg:flex gap-4 hidden">
+            <h4 class="text-red-600">Print</h4>
+            <svg class="text-red-600 w-5"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z" />
+              </svg>
+              
+        </div>
+        <div class="flex gap-4">
+            <h4 class="text-red-600">recommended</h4>
+            <svg class="text-red-600 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+              </svg>
+              
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="md:flex flex-col bg-[rgb(58,62,65)] hidden">
+<div class=" md:flex justify-around  h-1/2 text-white text-opacity-80 text-base pt-20 pb-10 sm:hidden">
+    <div>
+        <h2 class="text-2xl mb-6">Portfolio</h2>
+        <ul>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="text-2xl mb-6">About us</h2>
+        <ul>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+        </ul> 
+    </div>
+    <div>
+        <h2 class="text-2xl mb-6">Customers</h2>
+        <ul>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="text-2xl mb-6">Careers</h2>
+        <ul>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+        </ul>
+    </div>
+    <div></div>
+    <div>
+        <h2 class="text-2xl mb-6">Services</h2>
+        <ul>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+            <li>Focus Area</li>
+        </ul>
+    </div>
+  </div>
+  <span class="flex justify-end m-10 fixed bottom-0 right-0"><img src="./images/navToTop.svg" alt=""></span>
+</div>
+  <div class="h-32 bg-[rgb(37,37,40)] text-white text-opacity-80 text-base pt-16">
+    <span class="mt-6 ml-24">© Materna 2023</span>
+  </div>
+</body>
+</html>
